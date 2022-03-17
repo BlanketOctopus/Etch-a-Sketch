@@ -13,7 +13,26 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-
+		<h1>Etch-a-Sketch</h1>
+		<section>
+			<section class="row">
+				<form class="rForm" action="">
+					<label for="rows">How many rows? </label>
+					<input id="rowChoose" type="number" name="rows" min="1" max="100">
+				</form>
+			</section>
+			<section class="but">
+				<button class="start">Start</button>
+				<button class="reset">Reset</button>
+			</section>
+			<section class="col">
+				<form class="cForm" action="">
+					<label for="columns">How many columns? </label>
+					<input id="columnChoose" type="number" name="columns" min="1" max="100">
+				</form>
+			</section>
+		</section>
+		<section class="container"></section>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
